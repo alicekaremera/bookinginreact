@@ -1,0 +1,65 @@
+ .home_bg{
+
+    height:300vh ;
+    width: 100%;
+
+ background-color:white;
+    
+        margin-top: 70vh;
+        
+} 
+
+.main_selection{
+   height: 70%;
+   width: 100%;
+   background: none;
+   margin-left: 1%;
+   display: flex;
+
+
+}   
+h1{
+   animation-name:leftAnimation;
+   animation-duration:3s;
+}
+@keyframes leftAnimation {
+   0%{
+      opacity:0;
+      transform: translateX(-100px);
+   }
+   5%{
+      transform: translateY(20px);
+   }
+   100%{
+      opacity:1;
+      transform: translate(0);
+   }
+   
+}      
+
+.label{
+   height: 50vh;
+   width: 40%;
+   background:none;
+
+   margin-left: 5%;
+   margin-top: 10%;
+   color: black;
+
+
+}
+.right_photo{
+   height: 65vh;
+   width: 70%;
+   background: none;
+margin-top: 5%;
+}
+.right_photo img{
+   height: 99%;
+   width: 90%;
+
+}
+button type{
+   border-radius: 10PX;
+}
+

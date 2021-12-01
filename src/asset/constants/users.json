@@ -1,0 +1,52 @@
+[
+  {
+    "firstname": " Iradukunda karemera",
+    "lastname": " Alice",
+    "email": "karemeraalice@gmail.com",
+   
+    "phone": "+250 788 788 788",
+    "adress": "gitega"
+    
+    
+  },
+  {
+    "firstname": " TWIZEYIMANA",
+    "lastname": " Eric",
+    "email": "twizeric@gmail.com",
+   
+    "phone": "+250 788 788 788",
+    "adress": "Nyamirambo"
+    
+    
+  },
+  {
+    "firstname": " Humure",
+    "lastname": " Larisse",
+    "email": "humularisse@gmail.com",
+   
+    "phone": "+250 780273245",
+    "adress": "Ruyenzi"
+    
+    
+  },
+  {
+    "firstname": " Umukundwa",
+    "lastname": " Leatitia",
+    "email": "umuleatitia@gmail.com",
+   
+    "phone": "+250 787945312",
+    "adress": "Nyamirambo"
+    
+    
+  },
+  {
+    "firstname": " Niyonkuru",
+    "lastname": " pamphile",
+    "email": "niyopamphile@gmail.com",
+   
+    "phone": "+250 780342178",
+    "adress": "Gatenga"
+    
+    
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "title": " Nyungwe Park",
+    "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. .",
+    "seats": 50,
+    "available": 20,
+    "images": ["https://safarisrwandasafari.com/wp-content/uploads/2018/07/Nyungwe-Forest-National-Park.jpg?"],
+    "dateScheduled": "10 August 2010",
+    "dueDate": "15 August 2010",
+    "phone": "+250 788 788 788",
+    "Price": 300 ,
+    "user": "jhon smith"
+    
+  },
+
+  {
+    "title": " Muhazi Lac",
+    "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+    "seats": 50,
+    "available": 20,
+    "images": ["https://images.pexels.com/photos/2172499/pexels-photo-2172499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+    "dateScheduled": "10 August 2010",
+    "dueDate": "15 August 2010",
+    "phone": "+250 788 788 788",
+    "Price": 300 ,
+    "user": "jhon smith"
+  },
+  {
+    "title": " Gako Forest",
+    "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+    "seats": 80,
+    "available": 30,
+    "images": ["https://images.pexels.com/photos/355321/pexels-photo-355321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+    "dateScheduled": "10 August 2010",
+    "dueDate": "15 August 2010",
+    "phone": "+250 788 788 788",
+    "Price": 300 ,
+    "user": "jhon smith"
+  },
+  {
+    "title": " Akagera National Park",
+    "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod.  Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+    "seats": 40,
+    "available": 20,
+    "images": ["https://media.tacdn.com/media/attractions-splice-spp-674x446/07/81/54/04.jpg "],
+    "dateScheduled": "10 August 2010",
+    "dueDate": "15 August 2010",
+    "phone": "+250 788 788 788",
+    "Price": 300 ,
+    "user": "jhon smith"
+  }
+]
+
+
+
+
+

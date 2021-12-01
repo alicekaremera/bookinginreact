@@ -1,0 +1,194 @@
+.header{
+    background:rgb(1, 19, 1);
+    height:90px ;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px black;
+    
+
+    
+}
+
+
+ img {
+    height: 100px;
+    width:160px;
+    margin-left: 20px;
+    padding: 20px;
+
+    
+    
+}
+.menu{
+    height: 65px;
+    width: 50%;
+    background-color: white;
+    border-end-start-radius: 20px;
+    box-shadow: 30px 30px 50px black;
+
+margin-left: 35%;
+margin-top: 1%;
+display: flex;
+
+
+ }
+
+ .menu a{
+   
+
+    color:black;
+    font-size: large;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+ }
+
+ /* .navbar_right{
+ height: 90px;
+ width:80%;
+  background-color: black;
+  
+   margin-left: 40%;
+
+    
+ }
+ .navbar_right ul {
+     display: inline-flex; 
+     list-style: none;
+     color: blue;
+     text-decoration: none;
+ }
+ 
+  .navbar_right ul li{
+    width: 120px;
+     margin: 15px; 
+     padding: 1px;
+
+}  
+ .navbar_right ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+} 
+
+
+      .active, 
+     .header ul li :hover { 
+        background: blueviolet;
+        size: 190px;
+        
+    
+}
+.sub_menu{
+     display: none; 
+}
+.navbar_right ul li :hover .sub_menu{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 5px;
+    margin-top: -15px ;
+}
+.navbar_right ul li :hover .sub_menu ul  { 
+    display: block;
+    margin: 10px;
+   
+
+}
+.navbar_right ul li :hover .sub_menu ul  li {
+    width: 150px;
+    padding: 10px;
+     border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  */
+
+  /* .topnav{
+    width: 100%;
+     height: 70px; 
+    background:maroon;
+    padding-top: 15px;
+    padding-left:15px ;
+    box-shadow:3px 3px rgb(8, 12, 9);
+
+    display: flex;
+}
+
+
+ .topnav a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+  } */
+
+/* }  body{
+background: url(photo/canopy.jpeg);
+height: 150vh;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+
+.container{
+    background-color: white;
+    height: 150vh;
+    width: 100%;
+
+}
+.line_section{
+
+    width:100% ;
+    display: flex;
+    margin-top: 100%;
+    
+    background-color: rgb(12, 99, 180);
+    padding-top: 10px;
+
+}
+.line_one{
+    width: 15%;
+    height: 10px;
+    margin-left:35%;
+    background-color: maroon;
+
+}
+.line_two{
+    width: 15%;
+    height: 8px;
+    margin-left:10%;
+
+    background-color: maroon;
+
+}
+.line_three{
+    width: 15%;
+    height: 10px;
+    margin-left:3%;
+    background-color: maroon;
+
+}
+.label{
+    height: 400px;
+    width:30% ;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+    
+.home_container{
+background-color: cornflowerblue;
+width: 20%;
+height: 900px;
+
+}
+.tours{
+margin-left: 500px;
+ margin-top: 20px;
+} */
+ 

@@ -1,0 +1,70 @@
+.tour_card{
+     height:40vh;
+    width: 60%; 
+    margin-left: 20%;
+     background:white; 
+    margin-top: 2%;
+    overflow: hidden;
+    /* background-color: orange; */
+
+display: flex;
+}
+
+ 
+
+
+.tour_image{
+    height: 40vh;
+    width:60%;
+    background: blue;
+    margin-left: 2%;
+    border-radius: 10px;
+     
+}
+
+
+  .images img{
+    height: 10vh;
+    width:100%;
+
+ } 
+
+.tour_detail
+{
+    background: black;
+    height: 40vh; 
+    width: 40%;
+    display: block;
+    float: right;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+
+.title{
+
+    color: white;
+    font-size: small;
+}
+
+   
+
+ .description{
+    color: white;
+    font-size: small;
+
+}
+.date{
+    color: white;
+    font-size: large;
+}
+.tour_container{
+    background-color: white;
+    background-size: cover;
+    
+}
+.duedate{
+    color: white;
+    font-size: large;
+ }
+
+     
