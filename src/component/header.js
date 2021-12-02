@@ -33,7 +33,7 @@ const Header=()=>{
           <Input type="password" />
           </Form.Item>
           <Button htmlType="submit"onClick={()=>{localStorage.setItem("userLogedIn",true) ;
-          navigate("/newtour")
+          navigate("/dash/newtour")
           
            } }> 
 
@@ -45,11 +45,11 @@ const Header=()=>{
  
        
         <div className="header">
-              {/* <div className="logo"> */}
+             <div className="logo"> 
              <img src={logo} />  
        
-         {/* </div> 
-     */}
+          </div> 
+  
         <div class="menu">
          <a class="active" href="home"> Home</a>
             <a href="About">About us</a>

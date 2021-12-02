@@ -1,5 +1,5 @@
 import React from "react";
-import {Routes, Route } from "react-router-dom";
+import {Routes, Route,useLocation } from "react-router-dom";
 import Home from "../views/home";
 import Garelly from "../views/garelly";
 import Signin from "../views/signin";
@@ -13,6 +13,7 @@ import Alltours from "../views/dashboard/alltours";
 const isUserLogedIn=localStorage.getItem("userLogedIn");
 
 const Index=()=>{
+    const currentUrl=useLocation().pathname;
     return(
         <> 
 
@@ -29,12 +30,12 @@ const Index=()=>{
         
         </Routes>
         {
-            isUserLogedIn ?(
+            isUserLogedIn  && currentUrl.includes("/dash") ?(
                 <Dashlayout>
         <Routes>
 
-        <Route exact path ='/newtour' element={<Newtourview/>}></Route>
-        <Route exact path ='/alltours' element={<Alltours/>}></Route>
+        <Route exact path ='/dash/newtour' element={<Newtourview/>}></Route>
+        <Route exact path ='/dash/alltours' element={<Alltours/>}></Route>
 
 
         </Routes>

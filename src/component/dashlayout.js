@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import './dashlayout.css';
 import {Link} from 'react-router-dom';
 
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 
 import { Layout, Menu } from 'antd';
@@ -29,10 +29,10 @@ const Dashlayout=({children})=>{
               <div className="logo" />
               <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
                 <Menu.Item key="1" icon={<UserOutlined />}>
-                  <Link to="/newtour">Create Tour</Link>
+                  <Link to="/dash/newtour">Create Tour</Link>
                 </Menu.Item>
                 <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-                <Link to="/alltours"> Manage All Tours</Link>
+                <Link to="/dash/alltours"> Manage All Tours</Link>
                 </Menu.Item>
                 <Menu.Item key="3" icon={<UploadOutlined />} onClick={()=>localStorage.removeItem("userLogedIn")}>
                 <Link to="/home">  Logout </Link>
