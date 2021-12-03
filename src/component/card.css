@@ -23,8 +23,8 @@ display: flex;
 }
 
 
-  .images img{
-    height: 10vh;
+   img{
+    height: 100%;
     width:100%;
 
  } 
@@ -67,4 +67,6 @@ display: flex;
     font-size: large;
  }
 
-     
+.readmore{
+    color:blue;
+}     

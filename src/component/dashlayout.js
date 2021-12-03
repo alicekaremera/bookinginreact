@@ -1,8 +1,6 @@
 import React,{useState} from "react";
 import './dashlayout.css';
 import {Link} from 'react-router-dom';
-
-// import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 
 import { Layout, Menu } from 'antd';

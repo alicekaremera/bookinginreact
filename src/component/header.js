@@ -57,7 +57,8 @@ const Header=()=>{
          <a href="#"  onClick={()=>setVisible(true)}>Sign in</a>
           <a href=" Sign_up">Sign up</a>  
           {/* <a href="singletour">singletour</a>  */}
-          <a href="tours">tours</a> 
+          <a href="tours">tours</a>
+           <a href=" contact ">contact</a> 
         
         </div>
         </div> 

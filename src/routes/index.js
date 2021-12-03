@@ -4,7 +4,7 @@ import Home from "../views/home";
 import Garelly from "../views/garelly";
 import Signin from "../views/signin";
 import About from "../views/about";
-import Signup from "../views/signup";
+import Contact from "../views/contact";
 import Tours from "../views/tours";
 import Newtourview from "../views/dashboard/newtour";
 import Dashlayout from "../component/dashlayout";
@@ -20,7 +20,7 @@ const Index=()=>{
     <Routes> 
         <Route exact path ='/home' element={<Home/>}></Route> 
         <Route exact path ='/garelly' element={<Garelly/>}></Route> 
-        <Route exact path ='/signup' element={<Signup/>}></Route> 
+        <Route exact path ='/contact' element={<Contact/>}></Route> 
         <Route exact path ='/signin' element={<Signin/>}></Route> 
         <Route exact path ='/about' element={<About/>}></Route>
         <Route exact path ='/tours' element={<Tours/>}></Route>

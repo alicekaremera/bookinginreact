@@ -22,6 +22,9 @@ const About=()=>{
         
 
             </div>
+            <div className="abouttwo">
+            <p>  Choosing the company to facilitate your business or holiday travel is not a choice to be taken lightly. You need the confidence that your business or holiday travel  provider will exceed your expectations. At Sion Tour and Travel, we package unrivaled quality tour and travel solutions to make your travel experience great and memorable.</p>
+            </div>
              
      </HomeLayout>
      </div>

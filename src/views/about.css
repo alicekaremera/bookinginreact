@@ -9,3 +9,23 @@
      margin-top: 30px;
     
  }
+ .about p{
+    padding:10px;
+    font-size:large;
+    
+
+ }
+.abouttwo{
+    height:200px;
+    width:600px;
+    background: rgb(1, 19, 1);;
+    margin-left: 35%;
+    margin-top: 3px;
+    border-end-start-radius:40px
+    
+}
+.abouttwo p{
+    color:white;
+    padding:10px;
+    font-size:large;
+}

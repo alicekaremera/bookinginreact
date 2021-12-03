@@ -23,7 +23,9 @@
     "dueDate": "15 August 2010",
     "phone": "+250 788 788 788",
     "Price": 300 ,
-    "user": "jhon smith"
+    
+    "readmore": "#"
+
   },
   {
     "title": " Gako Forest",

@@ -12,7 +12,45 @@ rgba(255, 255, 255, 0.4)
     background-size: cover;
     background-attachment: fixed;
     box-shadow: rgba(0, 0, 0, 0.411);
-    
+
+    animation-name:animate ;
+    animation: duration 15s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate { 
+    0%
+    {   background-image:url(https://www.volcanoesnationalparkrwanda.com/wp-content/uploads/2018/10/Nyungwe-Canopy-Walk.jpg)
+    );
+
+}
+30%{
+    background-image:url(https://visitandtourrwanda.com/wp-content/uploads/2018/11/Akagera-national-park-giraffes.jpg)
+    )
+    ;
+}
+60%{
+    background-image:url(https://expeditewildlifetours.com/wp-content/uploads/2020/04/Lake-Kivu-750x458.jpg)
+
+    );
+
+}
+90%{
+    background-image:url(https://museum.gov.rw/fileadmin/user_upload/ethino.jpg)
+
+    );
+   
+}
+  
+100%{
+
+
+background-image: url(https://www.volcanoesparkrwanda.org/wp-content/uploads/2019/06/Virunga-National-Park-750x450.jpg)
+);
+}
 }
 
 .home_bg{

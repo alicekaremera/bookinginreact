@@ -34,7 +34,7 @@ const Tourcard = ({ data }) => {
       <div className="tour_card" >
         <div className="tour_image">
 
-           <img src={data.images[0]} width="100%" height="100%" /> 
+           <img src={data.images[0]}  /> 
         </div>
 
 
@@ -42,7 +42,9 @@ const Tourcard = ({ data }) => {
            <div className="title">
             <h3 onClick={() => handleClickDrawerVisible()} style={{ background: "black", color:"white" }}>{data.title} </h3>
           </div>
+          
           <div className="duedate">
+          
             <p>{data.dueDate}</p>
           </div>
           <div className="description">
@@ -51,8 +53,15 @@ const Tourcard = ({ data }) => {
           <div className="date">
             <p> <strong> {data.dateScheduled} </strong></p>
 
-            <a herf="#" >Read more .....</a>
-          </div> 
+             </div>
+             
+
+             <div className="readmore">
+
+
+            <a  onClick={() => handleClickDrawerVisible()} style={{ background: "black", color:"white" }}>{data.readmore} Read more .....</a>
+            </div>
+          
 
         </div>
       </div>
