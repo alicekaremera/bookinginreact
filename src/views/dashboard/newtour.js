@@ -1,5 +1,5 @@
 import React from "react";
-import Dashlayout from "../../component/dashlayout";
+// import Dashlayout from "../../component/dashlayout";
 import {Form,Input,Button, DatePicker,Upload,Space,InputNumber}from 'antd';
 // import { UploadOutlined } from "@antd-design/icons";
 

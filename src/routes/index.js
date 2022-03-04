@@ -9,6 +9,7 @@ import Tours from "../views/tours";
 import Newtourview from "../views/dashboard/newtour";
 import Dashlayout from "../component/dashlayout";
 import Alltours from "../views/dashboard/alltours";
+// import SignUp from "../views/signup";
 
 const isUserLogedIn=localStorage.getItem("userLogedIn");
 
@@ -24,7 +25,9 @@ const Index=()=>{
         <Route exact path ='/signin' element={<Signin/>}></Route> 
         <Route exact path ='/about' element={<About/>}></Route>
         <Route exact path ='/tours' element={<Tours/>}></Route>
-        {/* <Route exact path ='/newtour' element={<Newtourview/>}></Route> */}
+        {/* <Route exact path ='/Signup' element={<SignUp/>}></Route>
+     */}
+    
 
        
         

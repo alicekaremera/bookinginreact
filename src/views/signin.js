@@ -12,6 +12,7 @@ const Signin=()=>{
             <h1>Login here</h1>
  <p> USER NAME</p>
 <input type="text" placeholder="user name"></input>
+
 <p> PASSWORD </p>
 
 <input type="password" placeholder="password"></input>

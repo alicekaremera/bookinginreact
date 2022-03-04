@@ -6,7 +6,7 @@ import Footer from "../component/footer";
 
 
 
-const Home=({children})=>{
+const HomeLayout=({children})=>{
     return(
         
     <div className="home_container">   
@@ -21,7 +21,7 @@ const Home=({children})=>{
     </div>
     );
 }
-export default Home;
+export default HomeLayout;
 
 
  

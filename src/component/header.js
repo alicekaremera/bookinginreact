@@ -49,16 +49,20 @@ const Header=()=>{
              <img src={logo} />  
        
           </div> 
+
+          
   
         <div class="menu">
          <a class="active" href="home"> Home</a>
             <a href="About">About us</a>
          <a href="Garelly">Garelly</a>
          <a href="#"  onClick={()=>setVisible(true)}>Sign in</a>
-          <a href=" Sign_up">Sign up</a>  
+          {/* <a href=" Signup">Signup</a>   */}
           {/* <a href="singletour">singletour</a>  */}
           <a href="tours">tours</a>
            <a href=" contact ">contact</a> 
+           {/* <a href=" Sign_up">Sign up</a> */}
+
         
         </div>
         </div> 
